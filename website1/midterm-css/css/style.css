@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    direction: ltr;
+    font-family: 'Sriracha', cursive;
+}
+
+.headerNav div a{
+    margin-left: 25px;
+    transition: all linear .3s;
+}
+
+.headerNav i {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+@media ( max-width: 625px ) {
+    .headerNav i {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+}
+
+.headerNav div a:hover {
+    color: #4e555b;!important;
+    -webkit-transform: scale(1.251,1.251);
+    -moz-transform: scale(1.251,1.251);
+    -ms-transform: scale(1.251,1.251);
+    -o-transform: scale(1.251,1.251);
+    transform: scale(1.251,1.251);
+}
+
+@media ( max-width: 992px ) {
+    .headerNav div a:hover {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@media ( max-width: 992px ) {
+    .headerNav div a:hover {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+.headerNav ul li {
+    color: #4e555b;
+}
+
+.section1 {
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/8548.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section1 .home {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section1 .home p {
+    font-size: 85px;
+    color: #9fcdff;
+    top: 48%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.card img {
+    max-width: 100%;
+}
+.card .text {
+    padding: 0 20px 20px;
+}
+.card .text > button {
+    width: 100%;
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #171a1d;
+    color: #fff;
+    margin: 0;
+}
+
+.footer p {
+    margin-bottom: 0px;
+    line-height: 100px;
+}
